@@ -1,8 +1,9 @@
 <?php
 
-namespace CurrencyConvertor\Console\Commands;
+namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
+
 use Illuminate\Routing\Router;
 use File;
 
@@ -14,8 +15,6 @@ class GenerateRoutesJson extends Command
      * @var string
      */
     protected $signature = 'route:json';
-
-    protected $router;
 
     /**
      * The console command description.
