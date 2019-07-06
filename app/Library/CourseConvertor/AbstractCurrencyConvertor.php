@@ -2,7 +2,7 @@
 
 namespace App\Library\CourseConvertor;
 
-abstract class AbstractConvertor{
+abstract class AbstractCurrencyConvertor{
 
     /*
     * string

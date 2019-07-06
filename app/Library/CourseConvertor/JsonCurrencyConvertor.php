@@ -2,9 +2,9 @@
 
 namespace App\Library\CourseConvertor;
 
-use App\Library\CourseConvertor\AbstractConvertor;
+use App\Library\CourseConvertor\AbstractCurrencyConvertor;
 
-class JsonConvertor extends AbstractConvertor{
+class JsonCurrencyConvertor extends AbstractCurrencyConvertor {
 
 
     public function convert(){
